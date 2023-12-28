@@ -1,0 +1,73 @@
+.container {
+    background-color: rgba(41,21,71,0.8);
+}
+.zm-card {
+    display: inline-block;
+    width: 200px;
+}
+
+.zm-carousel__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bo, .lop1, .lop2, .lop3{
+    width:200px;
+    height:200px;
+}
+.bo{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bo .lop1{
+    top:0;
+    left:0;
+    position: absolute;
+    transition: 0.4s;
+}
+.bo:hover .lop1{
+    transform: scale(1.2);
+}
+.bo .lop2{
+    opacity:0;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: 0.4s;
+ }
+.bo:hover .lop2{
+    opacity: 0.4;
+    transform: scale(1.2);
+
+}
+.bo .lop3{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    color: white;
+    font-size: 30px;
+    opacity:0;
+    transition: 0.4s;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+
+h4 a {
+    color: white;
+    font-size: 20px;
+    display: contents;
+    
+}
+.title.is-6 {
+    margin-bottom: 1px;
+}
+h3 a {
+    color: grey;
+    font-size: 15px;
+    display: contents;
+}
+.mt-10.subtitle {
+    margin: 0;
+}
