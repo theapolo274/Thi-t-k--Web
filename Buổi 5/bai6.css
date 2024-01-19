@@ -1,0 +1,23 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.nhapcon {
+    margin-bottom: 10px;
+}
+
+.hienthi {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a, .s, .m, .d {
+    color: inherit;
+}
+
+.result {
+    font-weight: normal;
+    color: red;
+}
