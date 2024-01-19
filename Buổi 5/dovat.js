@@ -1,7 +1,7 @@
 function hienThiAnh(dovat) {
     if(dovat == 'mu'){
-        document.write("<img src = 'mu.jpg'>");
+        document.write("<img src = 'img/mu.jpg'>");
     }else{
-        document.write("<img src = 'giay.jpg'>");
+        document.write("<img src = 'img/giay.jpg'>");
     }
 }
