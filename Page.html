@@ -10,22 +10,20 @@
 </head>
 <body>
     <div class="container-cv">
-        <div style="color: red;" class="sidebar">
+        <div class="sidebar">
             <h1>TRẦN THANH THẾ</h1>
             <h3>Future programmer</h3>
-            <figure class="profile-img">
-                <img style="margin: 10px 0 0 6px;" src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/401577648_995669874855162_6112265422302062057_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=6ReZFN86pwsAX9b72M_&_nc_ht=scontent.fhan18-1.fna&oh=00_AfDHcFK9ZQutctQ9Xy9u4lRW-dY7ZaQ5jKyrliS2G4BqOA&oe=657EB6E8" alt="Profile">
-            </figure>
-            <ul class="sidebar-information">
-                <li><div class="glasses-icon"></div></li>
-                <li>Name: TRẦN THANH THẾ</li>
-                <li>Birthday: 02 July 2004</li>
-                <li>Job: Freelancer</li>
-                <li>Email: vfdgf2200@gmail.com</li>
-                <li>Facebook: Thế (T-rez)</li>
-                <li><button class="btn-download-cv"><a href="index.html">My CV</a><i class="fa fa-download" aria-hidden="true"></i>
-                </button></li>
-            </ul>
+            <p></p>
+            <div class="sidebar-information">
+                <p>Name: TRẦN THANH THẾ</p>
+                <p>Birthday: 02 July 2004</p>
+                <p>Job: Freelancer</p>
+                <p>Email: vfdgf2200@gmail.com</p>
+                <p>Facebook: Thế (T-rez)</p>
+                <button class="btn-download-cv"><a href="index.html">My CV</a><i class="fa fa-download" aria-hidden="true"></i>
+                </button>
+            </div>
+            <p></p>
             <a style="font-size: 20px;" href="https://github.com/theapolo274/Thi-t-k--Web">Show code here !!!</a>
         </div>
         <div class="right-container">
@@ -33,20 +31,19 @@
                 <ul class="header-nav">
                     <li class="home-icon"><i class="fa fa-home" aria-hidden="true"></i></li>
                     <li><a href="">MAIN</a></li>
-                    <li><a href="">MYSELF</a></li>
-                    <li><a href="">INTRODUCE</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li>=>></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#service">MY SERVICE</a></li>
+                    <li><a href="#skill">CODE SKILL</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
-                <ul class="header-icon">
+                <ul class="header-icon" id="contact">
                     <li><a href="https://www.facebook.com/profile.php?id=100089988062361"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li><a href="https://www.tiktok.com/@t_red274"><i class="fa-brands fa-tiktok"></i></a></li>
                     <li><a href="https://github.com/theapolo274"><i class="fa-brands fa-github"></i></a></li>
-                    <li><i class="fa-solid fa-bars"></i></li>
-                    <li><button class="btn-hire-me"><a style="color: blue;" href="https://www.facebook.com/profile.php?id=100089988062361">Hiri Me</a><i class="fa fa-paper-plane" aria-hidden="true"></i></button></li>
+                    <button class="btn-hire-me"><a style="color: blue;" href="https://www.facebook.com/profile.php?id=100089988062361">Hiri Me</a><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </ul>
             </header>
-            <div class="content-profile">
+            <div class="content-profile" id="project">
                 <div class="about-me-content">
                     <div class="title">
                     <h3>Project</h3>
@@ -160,55 +157,31 @@
             </ul>
          </div>
 
-                    <div class="my-service-container">
-                        <div class="title">
-                            <h3>My Service</h3>
-                            <span></span>
-                    </div>
-
-                    <div class="my-service-contain">
-                        <div class="my-service-item">
-                            <i class="fa-solid fa-code"></i>
-                            <h3>Web Development</h3>
-                            <p>I have been working on web design for 3 months.</p>
-                        </div>
-                        <div class="my-service-item">
-                            <i class="fa-solid fa-file"></i>
-                            <h3>Branding Identity</h3>
-                            <p>We will make you a brand that is catchy and leaves a trace.</p>
-                        </div>
-                        <div class="my-service-item">
-                            <i class="fa-solid fa-pen"></i>
-                            <h3>Illustrator</h3>
-                            <p>I have been working on illustration design for 3 years.</p>
-                        </div>
-                        <div class="my-service-item">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <h3>Fast Delivery   </h3>
-                            <p>I deliver your business as fast as possible.</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="skill-container">
-                <div class="skill-tyle">
-                    <div class="title">
-                        <h3>Design Skills</h3>
+            <div class="my-service-container" id="service">
+                <div class="title">
+                        <h3>My Service</h3>
                         <span></span>
-                        </div>
-                        <h4 class="skill-title">Photoshop</h4>
-                        <div class="skill-progess">
-                            <div></div>
-                        </div>
-                        <h4 class="skill-title">Sketch</h4>
-                        <div class="skill-progess">
-                            <div></div>
-                        </div>
-                        <h4 class="skill-title">Adobe Xd</h4>
-                        <div class="skill-progess">
-                            <div></div>
-                        </div>
-                        
                 </div>
+
+                <div class="my-service-contain">
+                    <div class="my-service-item">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Fontend Developer</h3>
+                        <p>I have been working on web design for 3 months.</p>
+                    </div>
+                    <div class="my-service-item">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h3>Game development</h3>
+                        <p>This comes from my passion and I have 1 year experience in it.</p>
+                    </div>
+                    <div class="my-service-item">
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>Psychological counseling</h3>
+                        <p>This comes from my personality and I feel it is an ability of mine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-container" id="skill"> 
                 <div class="skill-tyle">
                     <div class="title">
                         <h3>Code Skills</h3>
